@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: iris_left
+    shield: kboard_left
     snippet: zmk-usb-logging
   - board: nice_nano_v2
-    shield: iris_right
+    shield: kboard_right
     snippet: zmk-usb-logging
