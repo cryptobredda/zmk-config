@@ -1,6 +1,6 @@
 config SHIELD_KBOARD_LEFT
-    def_bool $(shields_list_contains, kboard_left)
+    def_bool $(shields_list_contains,kboard_left)
 
 config SHIELD_KBOARD_RIGHT
-    def_bool $(shields_list_contains, kboard_right)
+    def_bool $(shields_list_contains,kboard_right)
 
