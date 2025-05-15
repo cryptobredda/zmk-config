@@ -40,6 +40,13 @@
 
             label = "CAD_LINE_POLY";
         };
+
+        cad_rotate: cad_rotate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp O &kp T &kp RET>;
+            label = "CAD_ROTATE";
+        };
     };
 
     keymap {
@@ -131,11 +138,11 @@
 
         AutoCAD {
             bindings = <
-&trans  &trans      &trans               &trans          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp ESCAPE  &kp F3               &kp F8          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &cad_trim            &cad_Line_Poly  &cad_move  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &mt RC(RS(C)) RC(C)  &trans          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                         &mt DEL ENTER   &trans     &trans  &trans  &trans  &trans
+&trans  &trans       &trans               &trans          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ESCAPE   &kp F3               &kp F8          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &cad_rotate  &cad_trim            &cad_Line_Poly  &cad_move  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &mt RC(RS(C)) RC(C)  &trans          &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                          &mt DEL ENTER   &trans     &trans  &trans  &trans  &trans
             >;
         };
 
