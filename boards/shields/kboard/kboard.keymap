@@ -59,7 +59,7 @@
 &kp ESC       &mt F1 N1       &mt F2 N2       &mt F3 N3           &mt F4 N4           &mt F5 N5         &mt F6 N6            &mt F7 N7            &mt F8 N8          &mt F9 N9           &mt F10 N0            &kp BSPC
 &mt CAPS TAB  &mt ESC Q       &kp W           &kp E               &kp R               &kp T             &mt MINUS Y          &mt LEFT_BRACE U     &mt RIGHT_BRACE I  &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P   &kp DEL
 &kp LSHFT     &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &kp G             &kp H                &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L     &mt RIGHT_GUI SEMI    &mt EQUAL SQT
-&kp LCTRL     &mt K_UNDO Z    &mt K_CUT X     &mt K_COPY C        &mt K_PASTE V       &kp B             &kp N                &kp M                &kp COMMA          &kp DOT             &mt NON_US_BSLH FSLH  &kp RSHFT
+&kp LCTRL     &mt LC(Z) Z     &mt LC(X) X     &mt LC(C) C         &mt LC(V) V         &kp B             &kp N                &kp M                &kp COMMA          &kp DOT             &mt NON_US_BSLH FSLH  &kp RSHFT
                                               &mt LEFT_ALT ENTER  &kp SPACE           &mo 1      &mo 1  &mt RIGHT_ALT ENTER  &kp BACKSPACE
             >;
         };
@@ -68,11 +68,11 @@
             // Layer Select Layer (Layer 1)
 
             bindings = <
-&trans  &trans          &trans           &to 8           &to 7         &trans          &trans  &trans        &trans          &trans          &trans           &trans
-&trans  &to 2           &to 3            &to 4           &to 5         &to 6           &to 6   &to 5         &to 4           &to 3           &to 2            &trans
-&trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &trans          &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp K_UNDO      &kp K_COPY       &kp K_PASTE     &kp K_REDO    &trans          &trans  &kp K_UNDO    &kp K_COPY      &kp K_PASTE     &kp K_REDO       &trans
-                                         &trans          &trans        &trans  &trans  &trans  &trans
+&trans  &trans          &trans           &to 8           &to 7             &trans          &trans  &to 7              &to 8            &trans          &trans           &trans
+&trans  &to 2           &to 3            &to 4           &to 5             &to 6           &to 6   &to 5              &to 4            &to 3           &to 2            &trans
+&trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &trans          &trans  &kp UP_ARROW       &kp DOWN_ARROW   &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &kp LEFT_GUI    &kp LEFT_ALT     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans          &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT   &kp RIGHT_GUI    &trans
+                                         &trans          &trans            &trans  &trans  &trans  &trans
             >;
         };
 
