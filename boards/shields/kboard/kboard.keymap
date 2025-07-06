@@ -68,11 +68,11 @@
             // Layer Select Layer (Layer 1)
 
             bindings = <
-&trans  &trans          &trans           &to 8           &to 7             &trans          &trans  &to 7              &to 8            &trans          &trans           &trans
-&trans  &to 2           &to 3            &to 4           &to 5             &to 6           &to 6   &to 5              &to 4            &to 3           &to 2            &trans
-&trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &trans          &trans  &kp UP_ARROW       &kp DOWN_ARROW   &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_GUI    &kp LEFT_ALT     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans          &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT   &kp RIGHT_GUI    &trans
-                                         &trans          &trans            &trans  &trans  &trans  &trans
+&trans  &trans                             &trans                               &to 8           &to 7             &trans          &trans  &to 7              &to 8            &trans                             &trans                               &trans
+&trans  &to 2                              &to 3                                &to 4           &to 5             &to 6           &to 6   &to 5              &to 4            &to 3                              &to 2                                &trans
+&trans  &mt LG(LC(LEFT_ARROW)) LEFT_ARROW  &mt LG(LC(RIGHT_ARROW)) RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &trans          &trans  &kp UP_ARROW       &kp DOWN_ARROW   &mt LG(LC(LEFT_ARROW)) LEFT_ARROW  &mt LG(LC(RIGHT_ARROW)) RIGHT_ARROW  &trans
+&trans  &kp LEFT_GUI                       &kp LEFT_ALT                         &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans          &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT                      &kp RIGHT_GUI                        &trans
+                                                                                &trans          &trans            &trans  &trans  &trans  &trans
             >;
         };
 
